@@ -1,5 +1,5 @@
 import React from 'react';
-import './CharacterIntro.css';
+import './components-styles/CharacterIntro.css';
 import Footer from './Footer.js';
 
 
@@ -12,10 +12,10 @@ function OomCharacterIntro(props){
                 <h3>Hi there! My name is</h3>
                 <h1>Oom Saki</h1>
             <div className="Map">
-              <img alt="map" src={require('./images/District_6_map.png')} height="100%" width="100%"></img>
+              <img alt="map" src="images/District_6_map.png" height="100%" width="100%" />
             </div>
                 <div className="characterImg">
-                <a href="./CharacterIntro"><img src={require('./images/Oom_Saki.png')} alt="Oom Saki" onClick="./OomSakiIntro"  target='_blank'/></a>  
+                <img src="images/Oom_Saki.png" alt="Oom Saki" />
             
             </div>
          
