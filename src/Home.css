@@ -1,0 +1,22 @@
+
+  .Map{
+    height:300px;
+    width:40%;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 30px ;
+  }
+  
+  
+  .Button img{
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    margin-right: 50px;
+    margin-left:50px;
+  }
+
+  .footer-container{
+    justify-content: start;
+    padding-left: 4rem;
+  }

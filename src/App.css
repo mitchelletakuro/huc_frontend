@@ -1,0 +1,8 @@
+.Home{
+    background-image: url('images/DistrictSix480Compilation-lowres-web.png');
+    background-size: cover;
+    height: 85vh;
+    border: 2px solid transparent;
+    text-align: center;
+    margin-top: 0px;
+  }
