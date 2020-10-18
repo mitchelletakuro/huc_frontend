@@ -3,19 +3,19 @@ import './CharacterIntro.css';
 import Footer from './Footer.js';
 
 
-function CharacterIntro(props){
+function PhunmlaCharacterIntro(props){
 
     return (
         <div>
           <div className="CharacterIntro">
             <div className="character-box">
                 <h3>Hi there! My name is</h3>
-                <h1>{props.characterName}</h1>
+                <h1>Phunmla!</h1>
             <div className="Map">
               <img alt="map" src={require('./images/District_6_map.png')} height="100%" width="100%"></img>
             </div>
                 <div className="characterImg">
-                <a href="./CharacterIntro"><img src={require('./images/Oom_Saki.png')} alt="Oom Saki" onClick="./OomSakiIntro"  target='_blank'/></a>  
+                <a href="./CharacterIntro"><img src={require('./images/Phumla.png')} alt="Oom Saki" onClick="./OomSakiIntro"  target='_blank'/></a>  
             
             </div>
          
@@ -47,4 +47,4 @@ function CharacterIntro(props){
     );
 }
 
-export default CharacterIntro;
+export default PhunmlaCharacterIntro;

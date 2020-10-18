@@ -16,8 +16,8 @@ function Home() {
           <h4>Select A Guide</h4>
           <div className="character-card">
 
-             <a href="./CharacterIntro"><img src={require('./images/Oom_Saki.png')} alt="Oom Saki" onClick="./CharacterIntro"  target='_blank'/></a>
-              <a href="./CharacterIntro"><img src={require('./images/Phumla.png')} alt="Phumla" onClick="./CharacterIntro"  target='_blank'/></a>
+             <a href="./OomCharacterIntro"><img src={require('./images/Oom_Saki.png')} alt="Oom Saki" onClick="./OomCharacterIntro"  target='_blank'/></a>
+              <a href="./PhunmlaCharacterIntro"><img src={require('./images/Phumla.png')} alt="Phumla" onClick="./PhunmlaCharacterIntro"  target='_blank'/></a>
     
       </div>
          
